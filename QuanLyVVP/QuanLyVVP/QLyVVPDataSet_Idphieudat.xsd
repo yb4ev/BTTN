@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="QLyVVPDataSet_Idphieudat" targetNamespace="http://tempuri.org/QLyVVPDataSet_Idphieudat.xsd" xmlns:mstns="http://tempuri.org/QLyVVPDataSet_Idphieudat.xsd" xmlns="http://tempuri.org/QLyVVPDataSet_Idphieudat.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="Setting" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="Setting (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.QuanLyVVP.Properties.Settings.GlobalReference.Default.Setting" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="View_IdphieudatTableAdapter" GeneratorDataComponentClassName="View_IdphieudatTableAdapter" Name="View_Idphieudat" UserDataComponentName="View_IdphieudatTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Setting (Settings)" DbObjectName="QLyVVP.dbo.View_Idphieudat" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Idpd FROM dbo.View_Idphieudat</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Idpd" DataSetColumn="Idpd" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="QLyVVPDataSet_Idphieudat" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="QLyVVPDataSet_Idphieudat" msprop:Generator_UserDSName="QLyVVPDataSet_Idphieudat">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="View_Idphieudat" msprop:Generator_TableClassName="View_IdphieudatDataTable" msprop:Generator_TableVarName="tableView_Idphieudat" msprop:Generator_TablePropName="View_Idphieudat" msprop:Generator_RowDeletingName="View_IdphieudatRowDeleting" msprop:Generator_RowChangingName="View_IdphieudatRowChanging" msprop:Generator_RowEvHandlerName="View_IdphieudatRowChangeEventHandler" msprop:Generator_RowDeletedName="View_IdphieudatRowDeleted" msprop:Generator_UserTableName="View_Idphieudat" msprop:Generator_RowChangedName="View_IdphieudatRowChanged" msprop:Generator_RowEvArgName="View_IdphieudatRowChangeEvent" msprop:Generator_RowClassName="View_IdphieudatRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Idpd" msprop:Generator_ColumnVarNameInTable="columnIdpd" msprop:Generator_ColumnPropNameInRow="Idpd" msprop:Generator_ColumnPropNameInTable="IdpdColumn" msprop:Generator_UserColumnName="Idpd">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="12" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

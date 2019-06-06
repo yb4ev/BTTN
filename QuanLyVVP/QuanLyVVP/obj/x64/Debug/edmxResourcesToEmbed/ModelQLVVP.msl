@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="QLyVVPModelStoreContainer" CdmEntityContainer="QLyVVPEntities">
+    <EntitySetMapping Name="HOADONs">
+      <EntityTypeMapping TypeName="QLyVVPModel.HOADON">
+        <MappingFragment StoreEntitySet="HOADON">
+          <ScalarProperty Name="Idhd" ColumnName="Idhd" />
+          <ScalarProperty Name="Idsp" ColumnName="Idsp" />
+          <ScalarProperty Name="Tenngdung" ColumnName="Tenngdung" />
+          <ScalarProperty Name="Idkh" ColumnName="Idkh" />
+          <ScalarProperty Name="Tensp" ColumnName="Tensp" />
+          <ScalarProperty Name="Dvt" ColumnName="Dvt" />
+          <ScalarProperty Name="Soluong" ColumnName="Soluong" />
+          <ScalarProperty Name="Giaxuat" ColumnName="Giaxuat" />
+          <ScalarProperty Name="Thanhtien" ColumnName="Thanhtien" />
+          <ScalarProperty Name="Thoigian" ColumnName="Thoigian" />
+          <ScalarProperty Name="Hinhthuc" ColumnName="Hinhthuc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KHACHHANGs">
+      <EntityTypeMapping TypeName="QLyVVPModel.KHACHHANG">
+        <MappingFragment StoreEntitySet="KHACHHANG">
+          <ScalarProperty Name="Idkh" ColumnName="Idkh" />
+          <ScalarProperty Name="Tenkh" ColumnName="Tenkh" />
+          <ScalarProperty Name="Diachi" ColumnName="Diachi" />
+          <ScalarProperty Name="Sdt" ColumnName="Sdt" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LOAISPs">
+      <EntityTypeMapping TypeName="QLyVVPModel.LOAISP">
+        <MappingFragment StoreEntitySet="LOAISP">
+          <ScalarProperty Name="Idloaisp" ColumnName="Idloaisp" />
+          <ScalarProperty Name="Tenloaisp" ColumnName="Tenloaisp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NCCs">
+      <EntityTypeMapping TypeName="QLyVVPModel.NCC">
+        <MappingFragment StoreEntitySet="NCC">
+          <ScalarProperty Name="Idncc" ColumnName="Idncc" />
+          <ScalarProperty Name="Tenncc" ColumnName="Tenncc" />
+          <ScalarProperty Name="Diachi" ColumnName="Diachi" />
+          <ScalarProperty Name="Sdt" ColumnName="Sdt" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NGUOIDUNGs">
+      <EntityTypeMapping TypeName="QLyVVPModel.NGUOIDUNG">
+        <MappingFragment StoreEntitySet="NGUOIDUNG">
+          <ScalarProperty Name="Idngdung" ColumnName="Idngdung" />
+          <ScalarProperty Name="Tenngdung" ColumnName="Tenngdung" />
+          <ScalarProperty Name="Chucvu" ColumnName="Chucvu" />
+          <ScalarProperty Name="Tendn" ColumnName="Tendn" />
+          <ScalarProperty Name="Matkhau" ColumnName="Matkhau" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NHOMNGDUNGs">
+      <EntityTypeMapping TypeName="QLyVVPModel.NHOMNGDUNG">
+        <MappingFragment StoreEntitySet="NHOMNGDUNG">
+          <ScalarProperty Name="Idnhomngdung" ColumnName="Idnhomngdung" />
+          <ScalarProperty Name="Quyendn" ColumnName="Quyendn" />
+          <ScalarProperty Name="Idngdung" ColumnName="Idngdung" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PHIEUDATHANGs">
+      <EntityTypeMapping TypeName="QLyVVPModel.PHIEUDATHANG">
+        <MappingFragment StoreEntitySet="PHIEUDATHANG">
+          <ScalarProperty Name="Idpd" ColumnName="Idpd" />
+          <ScalarProperty Name="Idsp" ColumnName="Idsp" />
+          <ScalarProperty Name="Idncc" ColumnName="Idncc" />
+          <ScalarProperty Name="Tennv" ColumnName="Tennv" />
+          <ScalarProperty Name="Tensp" ColumnName="Tensp" />
+          <ScalarProperty Name="Dvt" ColumnName="Dvt" />
+          <ScalarProperty Name="Soluongdat" ColumnName="Soluongdat" />
+          <ScalarProperty Name="Thoigian" ColumnName="Thoigian" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PHIEUNHAPs">
+      <EntityTypeMapping TypeName="QLyVVPModel.PHIEUNHAP">
+        <MappingFragment StoreEntitySet="PHIEUNHAP">
+          <ScalarProperty Name="Idpn" ColumnName="Idpn" />
+          <ScalarProperty Name="Idsp" ColumnName="Idsp" />
+          <ScalarProperty Name="Idncc" ColumnName="Idncc" />
+          <ScalarProperty Name="Tenngdung" ColumnName="Tenngdung" />
+          <ScalarProperty Name="Nguoigiao" ColumnName="Nguoigiao" />
+          <ScalarProperty Name="Tensp" ColumnName="Tensp" />
+          <ScalarProperty Name="Dvt" ColumnName="Dvt" />
+          <ScalarProperty Name="Soluonggiao" ColumnName="Soluonggiao" />
+          <ScalarProperty Name="Soluongnhap" ColumnName="Soluongnhap" />
+          <ScalarProperty Name="Gianhap" ColumnName="Gianhap" />
+          <ScalarProperty Name="Thanhtien" ColumnName="Thanhtien" />
+          <ScalarProperty Name="Thoigian" ColumnName="Thoigian" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SANPHAMs">
+      <EntityTypeMapping TypeName="QLyVVPModel.SANPHAM">
+        <MappingFragment StoreEntitySet="SANPHAM">
+          <ScalarProperty Name="Idloaisp" ColumnName="Idloaisp" />
+          <ScalarProperty Name="Idsp" ColumnName="Idsp" />
+          <ScalarProperty Name="Tensp" ColumnName="Tensp" />
+          <ScalarProperty Name="Dvt" ColumnName="Dvt" />
+          <ScalarProperty Name="Soluong" ColumnName="Soluong" />
+          <ScalarProperty Name="Gianhap" ColumnName="Gianhap" />
+          <ScalarProperty Name="Giaxuat" ColumnName="Giaxuat" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SANPHAMNCCs">
+      <EntityTypeMapping TypeName="QLyVVPModel.SANPHAMNCC">
+        <MappingFragment StoreEntitySet="SANPHAMNCC">
+          <ScalarProperty Name="Idncc" ColumnName="Idncc" />
+          <ScalarProperty Name="Idsp" ColumnName="Idsp" />
+          <ScalarProperty Name="Giacc" ColumnName="Giacc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
